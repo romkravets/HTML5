@@ -6,7 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Форма</h1>
-    <a href="index.html">Головна</a>
+    <a href="index.html">На Головну сторінку</a>
+    <hr>
+    <br>    
+    <h1>Форма реєстрації</h1>
+    <form method="POST" action="https://formspree.io/f/xvovqakn">
+        <label for="nameId">Ім'я:
+            <input type="text" id="nameId" name="name" placeholder="Ім'я">
+        </label>
+        <br>
+        <label for="emaiId">Email:
+            <input type="text" id="emaiId" name="email" placeholder="Email">
+        </label>
+        <br>
+        <label for="passwordId">Пароль:
+            <input type="password" id="passwordId" name="password" placeholder="Пароль">
+        </label>
+        <br>
+        <button type="submit">Відправити</button>
+        <button type="reset">Скинути</button>
+    </form>
 </body>
 </html>
