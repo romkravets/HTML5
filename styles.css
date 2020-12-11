@@ -10,12 +10,115 @@ html {
 body {
     padding: 0;
     margin: 0;
-    background: rgb(255, 195, 115);
+    min-height: 100vh;
 }
+
 
 h1, h2, h3, h4 {
     margin: 0;
 }
+
+
+.page-header {
+    width: 100%;
+}
+
+.banner-image {
+    width: 100%;
+    display: block;
+}
+
+.banner-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #ffff;
+    font-size: 12rem;
+    transform: translateX(-50%) translateY(-50%);
+    text-shadow: 0 4px 4px  rgba(0, 0, 0, 0.5) ;
+}
+
+.banner-description {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    color: #ffff;
+    font-size: 1.5rem;
+    transform: translateX(-50%);
+    text-shadow: 0 4px 4px  rgba(0, 0, 0, 0.5) ;
+
+}
+
+.page-nav {
+    height: 63px;
+    border-bottom: 1px solid  rgb(208, 212, 216, 0.5);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(144, 144, 144)
+    
+}
+
+.box-item {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    padding-right: 120px;
+    padding-left: 120px;
+}
+
+
+section .h2 {
+  font-size: 24px;
+  line-height: 1.04;
+  color: #4e5665;
+  text-align: center;
+  margin-top: 46px;
+  margin-bottom: 27px;
+}
+
+section p {
+  font-size: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.75;
+  color: #505050;
+  text-align: left;
+}
+
+.point-item {
+   display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.36;
+  color: #4e5665;
+  padding: 20px 0 10px 0; 
+}
+
+
+/* Form */
+
+.form {
+    background: rgb(255, 195, 115);
+}
+
 
 .log-in-form {
     background: rgb(255, 255, 255);
@@ -67,4 +170,6 @@ h1, h2, h3, h4 {
 .text-align {
     text-align: center;
 }
+
+/* Form */
 
